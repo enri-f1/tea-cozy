@@ -1,0 +1,38 @@
+/*-- Tea Cozy stylesheet -- */
+
+html, body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.header {
+	display: flex;
+	position: fixed;
+	z-index: 10;
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.header li {
+	display: inline; 
+}
+
+.logo img {
+	height: 50px;
+	padding-left: 10px;
+}
+
+.header a {
+	color: seashell;
+	opacity: 0.9;
+	text-decoration: underline;
+	padding-right: 30px;
+}
