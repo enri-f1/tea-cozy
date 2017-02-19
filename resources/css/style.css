@@ -8,6 +8,8 @@ html, body {
 	opacity: 0.9;
 }
 
+/*--- Header --- */
+
 .header {
 	display: flex;
 	position: fixed;
@@ -19,6 +21,7 @@ html, body {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	margin-top: -8px;
 }
 
 .header li {
@@ -36,3 +39,65 @@ html, body {
 	text-decoration: underline;
 	padding-right: 30px;
 }
+
+/*--- Main 'Mission' Section --- */
+
+.main {
+	position: relative;
+	top: 63px;
+}
+.mission {
+	display: flex;
+	height: 700px;
+	width: 1200px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+
+.mission span {
+	font-family: cursive;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	width: 100%;
+	align-items: center;
+}
+
+h4, h2 {
+	margin: 10px;
+}
+
+/*--- Tea of the Month section --- */
+
+.month {
+	display: flex;
+	flex-direction: column;
+	height: 700px;
+	width: 1000px;
+	align-items: center;
+}
+
+.month img {
+	height: 200px;
+	width: 300px;
+}
+
+/*--- First Row of seasonal teas -- */
+
+.rowone {
+	display: flex;
+
+}
+
+.rowtwo {
+	display: flex;
+}
+
+
+
